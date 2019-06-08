@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<configuration>
+<configurationtest>
   <tvshow>
     <metadata>
-      <series>Dr. Who</series>
+      <series>Dr. Whooo</series>
       <title>The Sun Makers</title>
       <airdate>11/26/1977</airdate>
       <episodes>4</episodes>
@@ -12,4 +12,4 @@
     </actors>
     <legal>(c)1977 BBC https://www.bbc.co.uk/programmes/b006q2x0</legal>
   </tvshow>
-</configuration>
+</configurationtest>

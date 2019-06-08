@@ -37,7 +37,7 @@ namespace ConfigurationSample
                     config.AddJsonFile(
                         "starship.json", optional: false, reloadOnChange: false);
                     config.AddXmlFile(
-                        "tvshow.xml", optional: false, reloadOnChange: false);
+                        "tvshow.xml", optional: false, reloadOnChange: true);
                     config.AddEFConfiguration(
                         options => options.UseInMemoryDatabase("InMemoryDb"));
                     config.AddCommandLine(args);

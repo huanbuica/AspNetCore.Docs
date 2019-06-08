@@ -37,6 +37,8 @@ namespace ConfigurationSample.Pages
 
             var config = _config.AsEnumerable();
 
+            //FilteredConfiguration = _config.AsEnumerable();
+
             FilteredConfiguration = config.Where(
                 kvp => config.Any(
                     i => configEntryFilter.Any(prefix => kvp.Key.StartsWith(prefix))));
